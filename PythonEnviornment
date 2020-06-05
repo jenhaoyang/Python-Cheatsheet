@@ -1,0 +1,3 @@
+印出PYTHONPATH
+import sys
+print(sys.path)

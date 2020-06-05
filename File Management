@@ -1,0 +1,7 @@
+__file__:
+module本身的位置
+
+複製資料夾
+shutil.copytree
+
+pathlib

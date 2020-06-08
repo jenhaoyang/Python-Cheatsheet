@@ -4,7 +4,10 @@ module本身的位置
 複製資料夾
 shutil.copytree
 
-列出資料夾全部子資料夾
+複製文件
+
+
+列出資料夾全部檔案和資料夾，可以搭配os.path.isfile 與 os.path.isdir 來判斷該項目是普通檔案還是目錄。
 for path in os.listdir(folder):
 
 pathlib

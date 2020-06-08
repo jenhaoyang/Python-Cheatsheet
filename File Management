@@ -4,4 +4,7 @@ module本身的位置
 複製資料夾
 shutil.copytree
 
+列出資料夾全部子資料夾
+for path in os.listdir(folder):
+
 pathlib

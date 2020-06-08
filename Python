@@ -1,0 +1,2 @@
+for迴圈加上
+for i, color in enumerate(colors):

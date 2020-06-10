@@ -1,4 +1,4 @@
-## 檔案IO:
+### 檔案IO:
 with open('demo.py', 'r', encoding='UTF-8') as file:
     for line in file:
         print(line, end='')
@@ -9,16 +9,16 @@ with之後的運算式傳回的物件，可以使用as指定給變數來參考�
 
 
 
-__file__:
+### __file__:
 module本身的位置
 
-複製資料夾
+### 複製資料夾
 shutil.copytree
 
-複製文件
+### 複製文件
 
 
 列出資料夾全部檔案和資料夾，可以搭配os.path.isfile 與 os.path.isdir 來判斷該項目是普通檔案還是目錄。
 for path in os.listdir(folder):
 
-pathlib
+### pathlib

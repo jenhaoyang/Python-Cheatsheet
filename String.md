@@ -1,2 +1,2 @@
 ### formatted
-print('Accuracy: %.3f' % accuracy)
+print('%4d  %s: %.3f' % (interger, string, float))

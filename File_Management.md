@@ -1,9 +1,9 @@
 ### 檔案IO:
-'''Python
+```Python
 with open('demo.py', 'r', encoding='UTF-8') as file:
     for line in file:
         print(line, end='')
-'''
+```
 
 with之後的運算式傳回的物件，可以使用as指定給變數來參考，在上面的例子中，file所參考到的物件，最後會被自動關閉，即使在with as的區塊中發生了例外，最後一定會關閉file所參考的物件。
 
